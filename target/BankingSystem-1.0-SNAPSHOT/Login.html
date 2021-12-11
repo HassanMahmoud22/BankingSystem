@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h3> Please enter your credentials below </h3>
+<br/>
+<form action="validate" method="get">
+    <table id="credentials">
+        <tr>
+            <td>Username</td>
+            <td><label id="username">
+                <input type="text" name="username">
+            </label></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><label id="password">
+                <input type="password" name="password">
+            </label></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit" name="submit" id="login">Login</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="error"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
